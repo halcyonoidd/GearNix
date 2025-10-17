@@ -36,15 +36,6 @@ This project is a strong example of modern, client-side web development:
 | **Animations** | AOS (Animate On Scroll) |
 | **State Management** | LocalStorage (Cart, Profile, Orders) |
 
-## 📂 Project Structure
-
-gearnix-store/
-├── home.html # Landing page with hero, services, and category sections
-├── produk.html # Product catalog page with filters and modals
-├── about.html # Company story, mission, vision, and team
-├── style.css # Custom Neon Dark Mode stylesheet
-├── script.js # Core e-commerce logic (cart, checkout, filters, modals)
-└── image/ # Assets folder (product and UI images)
 
 ## ⚙️ Get Started
 
@@ -52,5 +43,4 @@ gearnix-store/
    ```bash
    git clone https://github.com/halcyonoidd/GearNix.git
 
-## 📂 Project Structure
 
