@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - GearNix</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">GEARNIX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produk.html">PRODUCTS</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">ABOUT</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-3">
+                    <span class="nav-icon" onclick="openOrderHistory()" title="Order History">
+                        📦
+                        <span class="order-count" id="orderCount">0</span>
+                    </span>
+                    <span class="cart-icon" onclick="openCart()" title="Shopping Cart">
+                        🛒
+                        <span class="cart-count" id="cartCount">0</span>
+                    </span>
+                    <span class="nav-icon" onclick="openProfile()" title="Profile">
+                        👤
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="about-hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 text-center" data-aos="fade-up">
+                    <h1 class="about-title">ABOUT GEARNIX</h1>
+                    <p class="about-subtitle">Redefining Gaming Experience Since 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MISSION & VISION SECTION ========== -->
+    <section class="features-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-card">
+                        <div class="about-icon">🎯</div>
+                        <h3>Our Mission</h3>
+                        <p>To empower gamers worldwide with cutting-edge technology and premium gaming gear that enhances performance, comfort, and overall gaming experience. We strive to make professional-grade equipment accessible to every gaming enthusiast.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-card">
+                        <div class="about-icon">🔭</div>
+                        <h3>Our Vision</h3>
+                        <p>To become the world's most trusted and innovative gaming gear brand, setting industry standards for quality, performance, and customer satisfaction. We envision a future where every gamer has access to equipment that helps them reach their full potential.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== STORY SECTION ========== -->
+    <section class="features-section" style="padding-top: 0;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="story-content">
+                        <h2 class="section-title">Our Story</h2>
+                        <p>Founded in 2025 by Agri Azzukhruf, a passionate Informatics student from State University of Surabaya, GearNix was born from a simple belief: every gamer deserves access to professional-grade equipment without breaking the bank.</p>
+                        <p>What started as a small online store has grown into a leading gaming gear retailer, serving thousands of customers across Indonesia and beyond. Our commitment to quality, innovation, and customer satisfaction has been the driving force behind our success.</p>
+                        <p>Today, GearNix stands as a testament to the power of passion and dedication. We continue to push boundaries, explore new technologies, and deliver products that help gamers achieve their dreams.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="story-image">
+                        <img src="image/about.png" alt="Our Story" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CORE VALUES SECTION ========== -->
+    <section class="features-section" style="background: var(--bg-card); padding-top: 80px;">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>OUR CORE VALUES</h2>
+                <p>The principles that guide everything we do</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="value-card">
+                        <div class="value-icon">⚡</div>
+                        <h4>Innovation</h4>
+                        <p>Constantly pushing boundaries and embracing new technologies to deliver cutting-edge gaming solutions.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="value-card">
+                        <div class="value-icon">🏆</div>
+                        <h4>Quality</h4>
+                        <p>Never compromising on quality. Every product undergoes rigorous testing to meet our high standards.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="value-card">
+                        <div class="value-icon">❤️</div>
+                        <h4>Passion</h4>
+                        <p>Driven by genuine love for gaming and commitment to serving the gaming community with excellence.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="value-card">
+                        <div class="value-icon">🤝</div>
+                        <h4>Trust</h4>
+                        <p>Building lasting relationships through transparency, reliability, and exceptional customer service.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="value-card">
+                        <div class="value-icon">🌍</div>
+                        <h4>Community</h4>
+                        <p>Supporting and growing the gaming community through sponsorships, events, and educational content.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="value-card">
+                        <div class="value-icon">💡</div>
+                        <h4>Excellence</h4>
+                        <p>Striving for perfection in every aspect of our business, from products to customer experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== STATISTICS SECTION ========== -->
+    <section class="features-section">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-card">
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-card">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Products</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Brands</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-card">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Support</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TEAM SECTION ========== -->
+    <section class="features-section" style="background: var(--bg-card);">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>MEET OUR TEAM</h2>
+                <p>The passionate people behind GearNix</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="100">
+                    <div class="team-card">
+                        <div class="team-image">🧑‍🎓</div>
+                        <h4>Agri Azzukhruf</h4>
+                        <p class="team-role">Founder & CEO</p>
+                        <p class="team-bio">Informatics Engineering Student at State University of Surabaya</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="200">
+                    <div class="team-card">
+                        <div class="team-image">👨‍💼</div>
+                        <h4>Agri Azzukhruf</h4>
+                        <p class="team-role">Head of Product</p>
+                        <p class="team-bio">Expert in gaming hardware and technology innovation</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="300">
+                    <div class="team-card">
+                        <div class="team-image">👨‍🔧</div>
+                        <h4>Muhammad Julianda Nu'man</h4>
+                        <p class="team-role">Technical Director</p>
+                        <p class="team-bio">Engineering genius ensuring product excellence</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="400">
+                    <div class="team-card">
+                        <div class="team-image">🧑‍💻</div>
+                        <h4>I Made Nandana Devadatta Giri</h4>
+                        <p class="team-role">Creative Director</p>
+                        <p class="team-bio">Crafting memorable experiences and brand identity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>GET IN TOUCH</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            <div class="row g-4">
+                <!-- Contact Information -->
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="contact-info">
+                        <h4>Contact Information</h4>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h5>Address</h5>
+                                <p>Jl. Gaming Center No. 123<br>Surabaya, East Java 60123<br>Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h5>Email</h5>
+                                <p>info@gearnix.com<br>support@gearnix.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h5>Phone</h5>
+                                <p>+62 812-3456-7890<br>+62 21-1234-5678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">⏰</div>
+                            <div>
+                                <h5>Business Hours</h5>
+                                <p>Monday - Friday: 9:00 AM - 8:00 PM<br>Saturday - Sunday: 10:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="contact-form-container">
+                        <h4>Send Us a Message</h4>
+                        <form id="contactForm" class="contact-form">
+                            <div class="mb-3">
+                                <label class="form-label">Your Name *</label>
+                                <input type="text" class="form-control" id="contactName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Your Email *</label>
+                                <input type="email" class="form-control" id="contactEmail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Subject *</label>
+                                <input type="text" class="form-control" id="contactSubject" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Message *</label>
+                                <textarea class="form-control" id="contactMessage" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-neon w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MODALS ========== -->
+    
+    <!-- Cart Modal -->
+    <div class="modal fade" id="cartModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="orderDetailTitle"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="orderDetailContent"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-neon" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-neon" onclick="reorderItems()">Reorder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">GEARNIX</div>
+                <p class="text-secondary">Engineered for uncompromising performance and breathtaking immersion</p>
+                <p class="text-secondary">&copy; 2025 GearNix. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== SCRIPTS ========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Contact Form Handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('contactName').value;
+            const email = document.getElementById('contactEmail').value;
+            const subject = document.getElementById('contactSubject').value;
+            const message = document.getElementById('contactMessage').value;
+            
+            alert(`Thank you, ${name}! Your message has been sent successfully.\n\nWe'll get back to you at ${email} as soon as possible.`);
+            
+            this.reset();
+        });
+    </script>
+</body>
+</html>
+                    <h5 class="modal-title">Shopping Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="cartItems"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-neon" data-bs-dismiss="modal">Continue Shopping</button>
+                    <button type="button" class="btn btn-neon" onclick="proceedCheckout()">Proceed to Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="modal fade" id="checkoutModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Checkout</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h6 class="mb-3">Shipping Address:</h6>
+                            <div class="shipping-address-display" id="shippingAddressDisplay">
+                                <p class="text-secondary">No address set. Please update your profile.</p>
+                            </div>
+                            <button class="btn btn-sm btn-outline-neon mb-4" onclick="openProfileFromCheckout()">
+                                Edit Address
+                            </button>
+                            <h6 class="mb-3">Select Payment Method:</h6>
+                            <div class="payment-option">
+                                <input type="radio" name="payment" id="credit" value="Credit Card" checked>
+                                <label for="credit" class="ms-2">💳 Credit Card</label>
+                            </div>
+                            <div class="payment-option">
+                                <input type="radio" name="payment" id="bank" value="Bank Transfer">
+                                <label for="bank" class="ms-2">🏦 Bank Transfer</label>
+                            </div>
+                            <div class="payment-option">
+                                <input type="radio" name="payment" id="ewallet" value="E-Wallet">
+                                <label for="ewallet" class="ms-2">📱 E-Wallet</label>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <h6 class="mb-3">Order Summary:</h6>
+                            <div id="checkoutTotal" class="cart-total"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-neon" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-neon" onclick="placeOrder()">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile Modal -->
+    <div class="modal fade" id="profileModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">👤 My Profile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="profileForm">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6 class="text-neon mb-3">Personal Information</h6>
+                                <div class="mb-3">
+                                    <label class="form-label">Full Name *</label>
+                                    <input type="text" class="form-control" id="profileName" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Email *</label>
+                                    <input type="email" class="form-control" id="profileEmail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" id="profilePhone" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Date of Birth</label>
+                                    <input type="date" class="form-control" id="profileDob">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-neon mb-3">Shipping Address</h6>
+                                <div class="mb-3">
+                                    <label class="form-label">Street Address *</label>
+                                    <textarea class="form-control" id="profileAddress" rows="2" required></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">City *</label>
+                                    <input type="text" class="form-control" id="profileCity" required>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">State/Province *</label>
+                                            <input type="text" class="form-control" id="profileState" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">ZIP/Postal Code *</label>
+                                            <input type="text" class="form-control" id="profileZip" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Country *</label>
+                                    <input type="text" class="form-control" id="profileCountry" required>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-neon" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-neon" onclick="saveProfile()">Save Profile</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order History Modal -->
+    <div class="modal fade" id="orderHistoryModal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">📦 Order History</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="orderHistoryContent"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-neon" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Detail Modal -->
+    <div class="modal fade" id="orderDetailModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
