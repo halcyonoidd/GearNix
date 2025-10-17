@@ -27,7 +27,7 @@ More than just a storefront, GearNix provides a complete, performance-driven sho
 
 ## 📂 Project Structure
 
-'''
+```
 gearnix-store/
 ├── home.html # Landing page with hero, services, and category sections
 ├── produk.html # Product catalog page with filters and modals
@@ -35,7 +35,7 @@ gearnix-store/
 ├── style.css # Custom Neon Dark Mode stylesheet
 ├── script.js # Core e-commerce logic (cart, checkout, filters, modals)
 └── image/ # Assets folder (product and UI images)
-'''
+```
 
 
 ## 🛠️ Technology Stack
