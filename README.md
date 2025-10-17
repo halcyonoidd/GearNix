@@ -21,15 +21,15 @@ This project is a strong example of modern, client-side web development:
 * **Dynamic Content:** AOS (Animate On Scroll) for engaging visual effects.
 * **State Management:** LocalStorage for persisting application state (Cart, Profile, Orders).
 
-[## 📂 Project Structure
+## 📂 Project Structure
 
-gearnix-store/
-├── home.html         // Engaging landing page with service highlights
-├── produk.html       // Product catalog with robust filtering and sorting
-├── about.html        // Company story, mission, team, and contact info
-├── style.css         // Custom Neon Dark Mode theming
-├── script.js         // All core e-commerce logic (Data, Cart, Checkout, Filters)
-└── image/            // Assets](https://github.com/halcyonoidd/GearNix)
+gearnix-store#
+├── home.html         # Engaging landing page with service highlights
+├── produk.html       # Product catalog with robust filtering and sorting
+├── about.html        # Company story, mission, team, and contact info
+├── style.css         # Custom Neon Dark Mode theming
+├── script.js         # All core e-commerce logic (Data, Cart, Checkout, Filters)
+└── image/            # Assets     
 
 
 ## ⚙️ Get Started
