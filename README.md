@@ -1,36 +1,46 @@
-🚀 GearNix - Premium Gaming Gear Store
-GearNix is an e-commerce website dedicated to selling premium gaming gear. The site features a modern neon and dark mode design, as well as complete shopping cart, checkout, profile management, and order history functionalities.
+⚡ GearNix: Elevate Your Game - Premium Gaming Gear E-commerce
+Dive into the future of gaming retail with GearNix, a fully functional e-commerce website engineered with a stunning Neon Dark Mode aesthetic. More than just a storefront, GearNix provides a complete, performance-driven shopping experience for enthusiasts seeking cutting-edge gaming gear.
 
-✨ Key Features
-Neon & Dark Mode Design: Utilizes a stylish dark theme with striking neon accents (--neon-primary: #00ff88;) for an immersive visual experience.
+🌟 Why GearNix? (Key Highlights)
+Aesthetic Dominance: Neon Dark Mode: Experience a sleek, immersive visual design with vibrant neon accents (--neon-primary: #00ff88;) that sets a premium tone.
 
-Functional Navigation System: A fixed-top navbar with links to Home, Products, and About, plus icons for Order History, Cart, and Profile, complete with item count indicators.
+Precision Filtering Engine: Easily discover your next upgrade with advanced filtering by Category (Mouse, Keyboard, Headset, PC, etc.) and unique Badges (🔥 BEST SELLER, 🏆 PRO CHOICE, ✨ NEW ARRIVAL).
 
-Advanced Product Filtering: Allows users to filter products by Category (Mouse, Keyboard, Headset, PC, etc.) and Badge (BEST SELLER, PRO CHOICE, NEW ARRIVAL).
+Full E-commerce Lifecycle:
 
-Comprehensive E-commerce Management:
+Seamless Cart & Checkout: A complete customer journey from adding to cart to final payment selection (Credit Card, E-Wallet, Bank Transfer).
 
-Shopping Cart: Add, modify quantity, and delete items.
+Persistent User Data: Manages User Profiles and Order History using localStorage, allowing users to track past purchases and easily reorder items.
 
-Checkout Flow: Loads order summary, shipping address (from profile), and multiple payment options (Credit Card, Bank Transfer, E-Wallet).
+Dynamic UI/UX: Enhanced with AOS (Animate On Scroll) for fluid transitions and a modern, responsive layout built on Bootstrap 5.
 
-Order History: Stores history of completed orders (persisted in localStorage) with a reorder function.
+Detailed Product Showcases: Interactive modals present full specs, pricing, and ratings, helping customers make informed, confident purchases.
 
-Interactive Product Details: Displays technical specifications, star rating, price, description, and an Add to Cart button via a modal.
+🛠️ Technology Stack
+This project is a strong example of modern, client-side web development:
 
-Comprehensive About Us Page: Explains GearNix's mission, vision, story, and core values, and includes contact information and a message form.
+Front-end Core: HTML5, CSS3, and Vanilla JavaScript.
 
-Responsive Design: Built with Bootstrap 5 for a mobile-friendly display across all devices.
+Styling & Responsiveness: Bootstrap 5.3.2 and Custom CSS (style.css).
 
-AOS (Animate On Scroll) Animations: Provides dynamic visual effects when scrolling the page.
+Dynamic Content: AOS (Animate On Scroll) for engaging visual effects.
 
-🛠️ Technologies Used
-HTML5
+State Management: LocalStorage for persisting application state (Cart, Profile, Orders).
 
-CSS3 (Custom styling in style.css)
+📂 Project Structure
+gearnix-store/
+├── home.html         // Engaging landing page with service highlights
+├── produk.html       // Product catalog with robust filtering and sorting
+├── about.html        // Company story, mission, team, and contact info
+├── style.css         // Custom Neon Dark Mode theming
+├── script.js         // All core e-commerce logic (Data, Cart, Checkout, Filters)
+└── image/            // Assets
+⚙️ Get Started
+Clone the Repository:
 
-Vanilla JavaScript (script.js for all front-end logic and state management)
+Bash
 
-Bootstrap 5.3.2 (CSS/JS Framework)
+git clone [YOUR-REPOSITORY-URL]
+Launch: Simply open home.html or produk.html in your web browser.
 
-AOS (Animate On Scroll) (JavaScript library for animations)
+GearNix - Engineered for uncompromising performance and breathtaking immersion. Founded in 2025 by Agri Azzukhruf.
