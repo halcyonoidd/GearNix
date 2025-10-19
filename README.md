@@ -40,6 +40,29 @@ Users can filter items by category or tag (e.g., *Best Seller*, *Recommended*, *
 ---
 
 ## 📂 Project Structure
+```
+GearNix/
+│
+├── index.html / home.html      # Halaman utama
+├── produk.html                 # Halaman katalog produk
+├── about.html                  # Halaman tentang kami
+│
+├── style.css                   # Styling utama
+├── script.js                   # JavaScript utama
+├── cart.js                     # Logika shopping cart
+├── profile.js                  # Manajemen profile
+├── data.js                     # Data produk & service
+│
+└── image/                      # Folder gambar produk
+    ├── mouseGaming.png
+    ├── keyboardGaming.png
+    ├── headsetGaming.png
+    ├── controllerGaming.png
+    ├── gamingChair.png
+    ├── pcGaming.png
+    ├── laptopGaming.png
+    └── ... (dan gambar lainnya)
+```
 
 ## Screenshots
 | ![Screenshot 1](./src/img.png) | ![Screenshot 2](./src/img2.png) | ![Screenshot 3](./src/img3.png) | ![Screenshot 4](./src/img4.png) |
