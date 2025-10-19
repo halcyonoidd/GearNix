@@ -1,36 +1,50 @@
-🚀 GearNix - Premium Gaming Gear Store
-GearNix is an e-commerce website dedicated to selling premium gaming gear. The site features a modern neon and dark mode design, as well as complete shopping cart, checkout, profile management, and order history functionalities.
+# ⚡ GearNix — Premium Gaming Gear Store
 
-✨ Key Features
-Neon & Dark Mode Design: Utilizes a stylish dark theme with striking neon accents (--neon-primary: #00ff88;) for an immersive visual experience.
+**GearNix** is a modern, visually striking e-commerce website for high-performance gaming equipment.  
+Built with **HTML**, **CSS**, and **JavaScript**, it offers an immersive shopping experience featuring dynamic product displays, interactive filters, and responsive design.
 
-Functional Navigation System: A fixed-top navbar with links to Home, Products, and About, plus icons for Order History, Cart, and Profile, complete with item count indicators.
+---
 
-Advanced Product Filtering: Allows users to filter products by Category (Mouse, Keyboard, Headset, PC, etc.) and Badge (BEST SELLER, PRO CHOICE, NEW ARRIVAL).
+## 🌟 Overview
 
-Comprehensive E-commerce Management:
+GearNix allows gamers to explore and purchase top-tier gaming products — from **mice**, **keyboards**, and **headsets** to **controllers** and **PC accessories**.  
+Users can filter items by category or tag (e.g., *Best Seller*, *Recommended*, *New Arrival*), view detailed product specs, and manage their cart and checkout process seamlessly.
 
-Shopping Cart: Add, modify quantity, and delete items.
+---
 
-Checkout Flow: Loads order summary, shipping address (from profile), and multiple payment options (Credit Card, Bank Transfer, E-Wallet).
+## 💻 Core Features
 
-Order History: Stores history of completed orders (persisted in localStorage) with a reorder function.
+- 🛍️ **Dynamic Product Listing** – Filter by category or tag with instant rendering.  
+- 🧾 **Product Detail Modal** – View images, specs, price, and warranty info in a sleek pop-up.  
+- 🛒 **Interactive Shopping Cart** – Add, remove, or adjust quantities in real time.  
+- 👤 **User Profile System** – Save and update personal information for checkout convenience.  
+- 📦 **Order History** – Track all previous orders easily.  
+- 🎨 **Modern Neon UI** – Dark mode aesthetic with glowing neon highlights.
 
-Interactive Product Details: Displays technical specifications, star rating, price, description, and an Add to Cart button via a modal.
+---
 
-Comprehensive About Us Page: Explains GearNix's mission, vision, story, and core values, and includes contact information and a message form.
+## 🧠 Tech Stack
 
-Responsive Design: Built with Bootstrap 5 for a mobile-friendly display across all devices.
+- **Frontend:** HTML5, CSS3, JavaScript (Vanilla JS)
+- **Frameworks/Libraries:** Bootstrap 5, AOS (Animate on Scroll)
+- **Design Theme:** Neon Dark Mode
 
-AOS (Animate On Scroll) Animations: Provides dynamic visual effects when scrolling the page.
+---
 
-🛠️ Technologies Used
-HTML5
+## 🚀 Pages
 
-CSS3 (Custom styling in style.css)
+- **Home:** Introduction, services, and category navigation.  
+- **Products:** Filtered catalog with product details and add-to-cart features.  
+- **About:** Company mission, vision, story, and team presentation.
 
-Vanilla JavaScript (script.js for all front-end logic and state management)
+---
 
-Bootstrap 5.3.2 (CSS/JS Framework)
+## 👨‍💻 Creator
 
-AOS (Animate On Scroll) (JavaScript library for animations)
+Developed by **Agri Azzukhruf** — Informatics Engineering student at **State University of Surabaya (UNESA)**.  
+GearNix represents a fusion of design aesthetics and interactive web functionality for modern gamers.
+
+---
+
+## 📂 Project Structure
+
