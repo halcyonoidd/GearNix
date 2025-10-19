@@ -39,12 +39,10 @@ Users can filter items by category or tag (e.g., *Best Seller*, *Recommended*, *
 
 ---
 
-## 👨‍💻 Creator
-
-Developed by **Agri Azzukhruf** — Informatics Engineering student at **State University of Surabaya (UNESA)**.  
-GearNix represents a fusion of design aesthetics and interactive web functionality for modern gamers.
-
----
-
 ## 📂 Project Structure
 
+## Screenshots
+| ![Screenshot 1](./src/img.png) | ![Screenshot 2](./src/img2.png) | ![Screenshot 3](./src/img3.png) | ![Screenshot 4](./src/img4.png) |
+|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|
+|  ![Screenshot 5](./src/img5.png) | ![Screenshot 6](./src/img6.png) | ![Screenshot 7](./src/img7.png) | ![Screenshot 8](./src/img8.png) |
+|  | ![Screenshot 9](./src/img9.png) | ![Screenshot 10](./src/img10.png) |  |
